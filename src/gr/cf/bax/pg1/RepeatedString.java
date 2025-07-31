@@ -1,4 +1,4 @@
-package gr.aueb.cf.ch10_challenges;
+package gr.cf.bax.pg1;
 
 public class RepeatedString {
 
