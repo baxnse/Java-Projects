@@ -9,8 +9,8 @@ public class MathHelper {
     public static int maxValue(int[] arr) {
         int max = arr[0];
 
-        for (int i = 0; i < arr.length; i++) {
-            if ( arr[i] > max) max = arr[i];
+        for (int el : arr) {
+            if (el > max) max = el;
         }
         return max;
     }
@@ -18,8 +18,8 @@ public class MathHelper {
     public static int minValue(int[] arr) {
         int min = arr[0];
 
-        for (int i = 0; i < arr.length; i++) {
-            if ( arr[i] < min) min = arr[i];
+        for (int el : arr) {
+            if (el < min) min = el;
         }
         return min;
     }
